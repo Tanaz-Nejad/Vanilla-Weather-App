@@ -1,3 +1,49 @@
-h1 {
-  color: blue;
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.weather-app-boarder {
+  background: #fff;
+  border: 3px solid #202124;
+  border-radius: 5px;
+  height: 480px;
+  margin: 20px auto;
+  max-width: 620px;
+  padding: 20px;
+}
+.weather-summary {
+  margin: 20px 20px 20px 10px;
+}
+.weatherCity {
+  color: #202124;
+  font-size: 40px;
+  font-weight: lighter;
+}
+.weatherDate,
+.weatherCondition {
+  color: #202124;
+  line-height: 1;
+  list-style: none;
+}
+.weather-icon {
+  display: inline-block;
+  height: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  width: 60px;
+}
+.weather-temperature {
+  color: #202124;
+  font-size: 52px;
+  line-height: 50px;
+}
+.celius {
+  color: #202124;
+  vertical-align: top;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 2px;
+  opacity: 0.6;
+}
+.weather-conditions {
+  list-style: none;
 }
